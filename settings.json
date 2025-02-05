@@ -1,0 +1,130 @@
+#Windows Terminal
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": "toggleBlockSelection",
+            "id": "User.toggleBlockSelection"
+        },
+        {
+            "command": "unbound"
+        },
+        {
+            "command": "closePane",
+            "id": "User.closePane",
+            "keys": "alt+q"
+        }
+    ],
+    "defaultProfile": "{ae9eabf4-c810-461d-bc3a-1c986a4a0786}",
+    "firstWindowPreference": "persistedWindowLayout",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "bellSound": 
+            [
+                "none"
+            ],
+            "colorScheme": "xcad",
+            "cursorShape": "filledBox",
+            "font": 
+            {
+                "face": "Hack Nerd Font",
+                "size": 8
+            },
+            "historySize": 12000,
+            "intenseTextStyle": "bright",
+            "opacity": 100,
+            "padding": "8",
+            "scrollbarState": "visible",
+            "useAcrylic": false
+        },
+        "list": 
+        [
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "icon": "%userprofile%\\WindowsTerminalIcons\\ubuntu.png",
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\Ubuntu-24.04\\home\\joao"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "ubuntu.exe",
+                "elevate": true,
+                "guid": "{ae9eabf4-c810-461d-bc3a-1c986a4a0786}",
+                "hidden": false,
+                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                "name": "Ubuntu",
+                "tabTitle": "Ubuntu"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "automatic",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{ccc39919-3b9f-444d-b6c5-4473eec8b01f}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Command Prompt (Copiar)",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "automatic",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{4c8b7b49-0b1a-4ebf-b65b-c4577cb7ed09}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Windows PowerShell (Copiar)",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#1A1A1A",
+            "black": "#121212",
+            "blue": "#2B4FFF",
+            "brightBlack": "#666666",
+            "brightBlue": "#5C78FF",
+            "brightCyan": "#5AC8FF",
+            "brightGreen": "#905AFF",
+            "brightPurple": "#5EA2FF",
+            "brightRed": "#BA5AFF",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#685AFF",
+            "cursorColor": "#00DDFF",
+            "cyan": "#28B9FF",
+            "foreground": "#F1F1F1",
+            "green": "#7129FF",
+            "name": "xcad",
+            "purple": "#2883FF",
+            "red": "#A52AFF",
+            "selectionBackground": "#FFFFFF",
+            "white": "#F1F1F1",
+            "yellow": "#3D2AFF"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "tabSwitcherMode": "inOrder",
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
